@@ -1,0 +1,54 @@
+@media(max-width: 800px) {
+    body {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+body {
+    display: flex;
+    gap: 20px;
+    overflow-x: hidden;
+    margin: 0;
+}
+header {
+    flex-basis: 20%;
+    color: white;
+    background: rgb(86, 145, 165);
+    text-align: center;
+    padding-bottom: 30px;
+}
+main {
+    flex-basis: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 10px 0px 30px;
+}
+main h2 {
+    text-align: center;
+}
+section, article {
+    width: 80%;
+}
+footer {
+    flex-basis: 20%;
+    color: white;
+    background: rgb(86, 145, 165);
+    text-align: center;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.gallery img {
+    width: calc(50% - 10px);
+    height: auto;
+}
+.hero img {
+    border-radius: 50%;
+}
+.list-center {
+    margin: auto;
+}
