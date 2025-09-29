@@ -15,7 +15,11 @@ This project was created to practice semantic HTML, CSS flexbox, responsive desi
 [View live site here](https://yanabrex.github.io/cat-moe/)
 
 ## Screenshots
+
+### Desktop View
 ![Desktop Screenshot](images/desktop.png)
+
+### Mobile View
 ![Mobile Screenshot](images/mobile.png)
 
 **Technologies used:** HTML5, CSS3
